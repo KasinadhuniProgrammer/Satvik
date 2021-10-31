@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+#about {
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#header__abt {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    padding-top: 160px;
+    padding-bottom: 10px;
+    
+}
+
+#header__desc {
+    font-family: 'Poppins', sans-serif;
+}
+
+#paraone, #paratwo, #parathree{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 10px;
+}
+
+#paraone__job {
+    text-decoration: underline;
+    text-decoration-color: #85ecb9;
+    text-decoration-style: wavy;
+}
+
+#paraone__type {
+    text-decoration: underline;
+    text-decoration-color: #85ecb9;
+    text-decoration-style: dotted;
+}
+
+#paraone__stack {
+    color: #6ce9aa;
+}
+
+#mymail {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #85ecb9;
+    text-decoration-style: solid;
+}
+
+#mymail:hover {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
