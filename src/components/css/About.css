@@ -9,49 +9,51 @@
     padding-bottom: 20px;
 }
 
-#header__abt {
+.header__abt {
     font-family: 'Rubik', sans-serif;
     font-size: 45px;
     padding-top: 160px;
     padding-bottom: 10px;
-    
 }
 
-#header__desc {
-    font-family: 'Poppins', sans-serif;
+.abt__hello {
+    color: #85ecb9;
 }
 
-#paraone, #paratwo, #parathree{
+.abt__p1, .abt__p2, .abt__p3 {
+    margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     padding-left: 20px;
     padding-right: 20px; 
     padding-top: 10px;
 }
 
-#paraone__job {
+.p1__job {
     text-decoration: underline;
     text-decoration-color: #85ecb9;
     text-decoration-style: wavy;
 }
 
-#paraone__type {
+.p1__company {
     text-decoration: underline;
-    text-decoration-color: #85ecb9;
+    text-decoration-color: #6ce9aa;
     text-decoration-style: dotted;
 }
 
-#paraone__stack {
+.p1__stack, .p2__school, .p2__degree, .p3__mail {
     color: #6ce9aa;
 }
 
-#mymail {
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: #85ecb9;
-    text-decoration-style: solid;
+.p3__mail {
+    text-decoration: none;
 }
 
-#mymail:hover {
-    text-decoration: none;
+.p1__stack:hover, .p2__school:hover, .p2__degree:hover, .p3__mail:hover {
+    color: white;
     transition-duration: 0.5s;
 }
+
+
+
+
+

@@ -8,10 +8,10 @@ const AnimatedComponent = () => (
         <span>Software Engineer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>High School Student</span>
+        <span>High School student</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>Loves JavaScript</span>
+        <span>Computer Scientist</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
     </Typing>
@@ -24,9 +24,6 @@ function Header() {
                <center><h1 id="header__h1">Satvik Kasinadhuni</h1></center>
                <hr id="header__seperator"/>
                <center><h3 id="header__h3"><AnimatedComponent /></h3></center>
-               <div className="header__img">
-                   <center><img id="profilepic" src="https://media-exp1.licdn.com/dms/image/C4D03AQHyA1Ms69Z0RQ/profile-displayphoto-shrink_800_800/0/1634531916756?e=1641427200&v=beta&t=PQ6-3PVAkpWOn44iP5rFQeI7VU96DpcKIsyQyJ8lErw" alt="Hello World!"/></center>
-               </div>
                <div className="header__btn">
                    <a id="button__btn" href="#about">Continue ▼</a>
                </div>
