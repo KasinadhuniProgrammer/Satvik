@@ -78,6 +78,11 @@
     color: #85ecb9;
 }
 
+.linkedin__anchor:hover, .twitter__anchor:hover, .github__anchor:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 960px) {
     #header__h1 {
         font-size: 45px;
