@@ -64,6 +64,20 @@
     transition-duration: 0.5s;
 }
 
+.links__linkedin, .links__twitter, .links__github {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.links__linkedin {
+    margin-left: 20px;
+}
+
+.linkedin__anchor, .twitter__anchor, .github__anchor {
+    color: #85ecb9;
+}
+
 @media screen and (max-width: 960px) {
     #header__h1 {
         font-size: 45px;
