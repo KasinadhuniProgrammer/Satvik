@@ -9,13 +9,13 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const AnimatedComponent = () => (
     <Typing loop={true}>
-        <span>Software Engineer</span>
+        <span>Python Developer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>Student</span>
+        <span>Java Developer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>Computer Scientist</span>
+        <span>C++ Developer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
     </Typing>
@@ -30,10 +30,10 @@ function Header() {
                <center><h3 id="header__h3"><AnimatedComponent /></h3></center>
                <div className="header__links">
                    <div className="links__linkedin">
-                       <a className="linkedin__anchor" href="https://www.linkedin.com/in/satvik-kasinadhuni/" target="_blank"><LinkedInIcon /></a>
+                       <a className="linkedin__anchor" href="https://www.linkedin.com/in/satvik-kasinadhuni-farmington/" target="_blank"><LinkedInIcon /></a>
                    </div>
                    <div className="links__twitter">
-                       <a className="twitter__anchor" href="https://twitter.com/SatvikJS" target="_blank"><TwitterIcon /></a>
+                       <a className="twitter__anchor" href="https://twitter.com/SatvKk" target="_blank"><TwitterIcon /></a>
                    </div>
                    <div className="links__github">
                        <a className="github__anchor" href="https://github.com/KasinadhuniProgrammer" target="_blank"><GitHubIcon /></a>
