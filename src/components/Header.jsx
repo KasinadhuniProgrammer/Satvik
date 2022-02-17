@@ -30,7 +30,7 @@ function Header() {
                <center><h3 id="header__h3"><AnimatedComponent /></h3></center>
                <div className="header__links">
                    <div className="links__linkedin">
-                       <a className="linkedin__anchor" href="https://www.linkedin.com/in/satvik-kasinadhuni-farmington/" target="_blank"><LinkedInIcon /></a>
+                       <a className="linkedin__anchor" href="https://www.linkedin.com/in/satvik-k/" target="_blank"><LinkedInIcon /></a>
                    </div>
                    <div className="links__twitter">
                        <a className="twitter__anchor" href="https://twitter.com/SatvKk" target="_blank"><TwitterIcon /></a>
