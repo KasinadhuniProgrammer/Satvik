@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Satvik/static/css/main.d80856f1.chunk.css",
-    "main.js": "/Satvik/static/js/main.74303c75.chunk.js",
-    "main.js.map": "/Satvik/static/js/main.74303c75.chunk.js.map",
+    "main.js": "/Satvik/static/js/main.ee7bea53.chunk.js",
+    "main.js.map": "/Satvik/static/js/main.ee7bea53.chunk.js.map",
     "runtime-main.js": "/Satvik/static/js/runtime-main.e3f538c0.js",
     "runtime-main.js.map": "/Satvik/static/js/runtime-main.e3f538c0.js.map",
     "static/js/2.448e0369.chunk.js": "/Satvik/static/js/2.448e0369.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e3f538c0.js",
     "static/js/2.448e0369.chunk.js",
     "static/css/main.d80856f1.chunk.css",
-    "static/js/main.74303c75.chunk.js"
+    "static/js/main.ee7bea53.chunk.js"
   ]
 }
