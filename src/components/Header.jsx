@@ -3,19 +3,19 @@ import Typing from 'react-typing-animation';
 import './css/Header.css'; 
 
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import CodeIcon from '@material-ui/icons/Code';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 const AnimatedComponent = () => (
     <Typing loop={true}>
-        <span>Python Developer</span>
+        <span>Student</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>Java Developer</span>
+        <span>Programmer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>C++ Developer</span>
+        <span>Loves Python</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
     </Typing>
@@ -33,7 +33,7 @@ function Header() {
                        <a className="linkedin__anchor" href="https://www.linkedin.com/in/satvik-k/" target="_blank"><LinkedInIcon /></a>
                    </div>
                    <div className="links__twitter">
-                       <a className="twitter__anchor" href="https://twitter.com/SatvKk" target="_blank"><TwitterIcon /></a>
+                       <a className="twitter__anchor" href="https://devpost.com/skasinad?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank"><CodeIcon /></a>
                    </div>
                    <div className="links__github">
                        <a className="github__anchor" href="https://github.com/KasinadhuniProgrammer" target="_blank"><GitHubIcon /></a>
