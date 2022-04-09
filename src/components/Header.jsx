@@ -15,7 +15,7 @@ const AnimatedComponent = () => (
         <span>Programmer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
-        <span>L</span>
+        <span>Cricketer</span>
         <Typing.Delay ms={1000}/>
         <Typing.Backspace count={64} speed={5}/>
     </Typing>
