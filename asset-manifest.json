@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Satvik/static/css/main.d80856f1.chunk.css",
-    "main.js": "/Satvik/static/js/main.ee7bea53.chunk.js",
-    "main.js.map": "/Satvik/static/js/main.ee7bea53.chunk.js.map",
+    "main.js": "/Satvik/static/js/main.047bd907.chunk.js",
+    "main.js.map": "/Satvik/static/js/main.047bd907.chunk.js.map",
     "runtime-main.js": "/Satvik/static/js/runtime-main.e3f538c0.js",
     "runtime-main.js.map": "/Satvik/static/js/runtime-main.e3f538c0.js.map",
-    "static/js/2.448e0369.chunk.js": "/Satvik/static/js/2.448e0369.chunk.js",
-    "static/js/2.448e0369.chunk.js.map": "/Satvik/static/js/2.448e0369.chunk.js.map",
+    "static/js/2.e220f98e.chunk.js": "/Satvik/static/js/2.e220f98e.chunk.js",
+    "static/js/2.e220f98e.chunk.js.map": "/Satvik/static/js/2.e220f98e.chunk.js.map",
     "static/js/3.47b533c4.chunk.js": "/Satvik/static/js/3.47b533c4.chunk.js",
     "static/js/3.47b533c4.chunk.js.map": "/Satvik/static/js/3.47b533c4.chunk.js.map",
     "index.html": "/Satvik/index.html",
     "static/css/main.d80856f1.chunk.css.map": "/Satvik/static/css/main.d80856f1.chunk.css.map",
-    "static/js/2.448e0369.chunk.js.LICENSE.txt": "/Satvik/static/js/2.448e0369.chunk.js.LICENSE.txt"
+    "static/js/2.e220f98e.chunk.js.LICENSE.txt": "/Satvik/static/js/2.e220f98e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e3f538c0.js",
-    "static/js/2.448e0369.chunk.js",
+    "static/js/2.e220f98e.chunk.js",
     "static/css/main.d80856f1.chunk.css",
-    "static/js/main.ee7bea53.chunk.js"
+    "static/js/main.047bd907.chunk.js"
   ]
 }
