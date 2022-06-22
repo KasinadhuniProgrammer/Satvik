@@ -85,6 +85,35 @@
   
   }
 
+  @media (min-width: 1440px) {
+    .header {
+        margin-top: 150px;
+    }
+
+    .header > h1 {
+        font-size: 100px;
+    }
+
+    .main {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    #two, #three {
+        font-size: 35px;
+    }
+
+    .closing {
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+  }
+
+
   /*Phone Devices*/
   @media (min-width: 320px) and (max-width: 480px) {
 
