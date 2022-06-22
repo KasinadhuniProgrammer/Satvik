@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');
+
+
+.header { 
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.header > h1 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 54px;
+}
+
+.main {
+    margin-left: 70px;
+    margin-top: 5px;
+    color: #ffc2c0;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+}
+
+#two, #three {
+    padding-top: 70px;
+    padding-right: 500px;
+    line-height: 1.5;
+}
+
+#link, #github, #linkedin, #mail{
+    text-decoration: none;
+    color: #85ecb9;
+}
+
+#link:hover{
+    color: #ffc2c0; 
+    transition-duration: 0.5s;
+}
+
+#github:hover, #linkedin:hover, #mail:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.closing {
+    margin-left: 70px;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+}
+
+.footer {
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+/*Large Desktops*/
+@media (min-width: 2048px) {
+
+    .header { 
+        margin-top: 100px;
+    }
+
+    .header > h1 {
+        font-size: 104px;
+    }
+
+    .main {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .closing {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .footer {
+        margin-top: 100px;
+        font-size: 20px;
+    }
+  
+  }
+
+  /*Phone Devices*/
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .header > h1 {
+        font-size: 40px;
+    }
+
+    .main {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    #one, #two, #three {
+        padding-right: 25px;
+        font-size: 30px;
+        line-height: 2;
+    }
+
+    .closing {
+        padding-right: 25px;
+    }
+
+    .footer {
+        font-size: 15px;
+        padding-left: 55px;
+    }
+  
+  }
+
+
+  /*Tablets(portrait)*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    #two, #three {
+        padding-right: 25px;
+    }
+
+    .closing {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+  
+  }
